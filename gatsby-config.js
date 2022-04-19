@@ -38,6 +38,12 @@ module.exports = {
       },
     },
     {
+  resolve: 'gatsby-plugin-gatsby-cloud',
+  options: {
+    mergeSecurityHeaders: false
+  }
+}
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Contentstack-Gatsby-Starter-App",

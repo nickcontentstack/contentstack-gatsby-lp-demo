@@ -42,7 +42,7 @@ module.exports = {
   options: {
     mergeSecurityHeaders: false
   }
-}
+},
     {
       resolve: "gatsby-plugin-manifest",
       options: {
